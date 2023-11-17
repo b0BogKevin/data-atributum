@@ -1,0 +1,17 @@
+#grid{
+display: grid;
+grid-template: 
+            "a b"
+            "c d";
+align-content: space-around;
+justify-content: space-around;
+width: min-content;
+height: min-content;
+}
+
+#cell{
+    background-color:darkgoldenrod;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
